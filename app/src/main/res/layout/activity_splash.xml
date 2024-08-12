@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:textAlignment="center"
+    tools:context=".activity.SplashActivity">
+
+    <ImageView
+        android:id="@+id/splashLog"
+        android:layout_width="333dp"
+        android:layout_height="337dp"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="150dp"
+        android:transitionName="logo_image"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="125dp"
+        android:fontFamily="@font/bangers"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:transitionName="logo_text"
+        android:textColor="@color/purple"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/antic"
+        android:includeFontPadding="false"
+        android:text="@string/app_comp"
+        android:textAlignment="center"
+        android:textColor="@color/brown"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/splashProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:indeterminateTint="@color/brown"
+        android:visibility="invisible" />
+
+</FrameLayout>

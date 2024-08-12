@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GarmentMachinery" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/yellow</item>
+    </style>
+
+    <style name="Theme.GarmentMachinery" parent="Base.Theme.GarmentMachinery" />
+
+    <style name="Theme.GarmentMachinery.FullScreen" parent="Theme.GarmentMachinery">
+        <item name="backgroundColor">@color/white</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
